@@ -84,5 +84,7 @@ dependencies {
     implementation("androidx.paging:paging-runtime:3.2.1")
     //optional jetpack compose integration
     implementation("androidx.paging:paging-compose:3.3.0-alpha02")
+    //coil image dependency
+    implementation("io.coil-kt:coil-compose:2.4.0")
 
 }

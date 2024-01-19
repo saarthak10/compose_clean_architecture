@@ -34,7 +34,9 @@ fun OnBoardingScreen(
 ) {
 
     Column(modifier = Modifier.fillMaxSize()) {
-        val pagerState = rememberPagerState(initialPage = 0)
+        val pagerState = rememberPagerState (pageCount = {
+            pages.size
+        })
 
         val buttonState = remember {
             derivedStateOf {
@@ -47,7 +49,7 @@ fun OnBoardingScreen(
             }
         }
 
-        HorizontalPager(pageCount = pages.size, state = pagerState) { index ->
+        HorizontalPager( state = pagerState) { index ->
             OnBoardingPage(page = pages[index])
         }
         Spacer(modifier = Modifier.weight(1f))

@@ -9,4 +9,9 @@ object Dimensions {
 
     val IndicatorSize = 14.dp
     val PageIndicatorWidth = 52.dp
+
+    val ArticleCardSize = 96.dp
+
+    val ExtraSmallPaddingFirst = 3.dp
+    val SmallIconSize = 11.dp
 }

@@ -1,7 +1,6 @@
 package com.learn.newsapplication
 
 import android.os.Bundle
-import android.util.Log
 import androidx.activity.ComponentActivity
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
@@ -14,16 +13,9 @@ import androidx.compose.ui.Modifier
 import androidx.compose.ui.tooling.preview.Preview
 import androidx.core.splashscreen.SplashScreen.Companion.installSplashScreen
 import androidx.core.view.WindowCompat
-import androidx.hilt.navigation.compose.hiltViewModel
-import androidx.lifecycle.lifecycleScope
-import com.learn.newsapplication.domain.usecases.AppEntryUseCases
 import com.learn.newsapplication.presentation.navgraph.NavGraph
-import com.learn.newsapplication.presentation.onboarding.OnBoardingScreen
-import com.learn.newsapplication.presentation.onboarding.OnBoardingViewModel
 import com.learn.newsapplication.ui.theme.NewsApplicationTheme
 import dagger.hilt.android.AndroidEntryPoint
-import kotlinx.coroutines.launch
-import javax.inject.Inject
 
 @AndroidEntryPoint
 class MainActivity : ComponentActivity() {

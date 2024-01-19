@@ -1,4 +1,4 @@
-package com.learn.newsapplication.domain.usecases
+package com.learn.newsapplication.domain.usecases.appEntry
 
 import com.learn.newsapplication.domain.local.LocalUserStore
 
