@@ -90,7 +90,7 @@ fun ArticleCardShimmer(
 
 @Preview(showBackground = true)
 @Composable
-fun ArticleCardShimmerPreview() {
+    fun ArticleCardShimmerPreview() {
     NewsApplicationTheme {
         ArticleCardShimmer()
     }
